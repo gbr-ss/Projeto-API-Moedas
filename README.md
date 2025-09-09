@@ -1,18 +1,43 @@
-# Projeto api de moedas
 # Cotação de Moedas - AwesomeAPI
 
-Este é um aplicativo web simples criado com [Streamlit](https://streamlit.io/) para consultar cotações de moedas em tempo real usando a API pública da [AwesomeAPI](https://docs.awesomeapi.com.br/).
+Um app web simples e elegante feito com [Streamlit](https://streamlit.io/) para consultar cotações em tempo real usando a [AwesomeAPI](https://docs.awesomeapi.com.br/).
 
-## Funcionalidades
+---
 
-- Consulta cotações atuais para as seguintes moedas:
-  - Dólar (USD) para Real (BRL)
-  - Euro (EUR) para Real (BRL)
-  - Bitcoin (BTC) para Real (BRL)
-  - Libra Esterlina (GBP) para Real (BRL)
-- Exibe informações detalhadas, como:
-  - Alta e baixa do dia
-  - Variação do preço
-  - Cotação atual para compra e venda
-  
-  ```bash
+## 🚀 Funcionalidades
+
+- Consulta cotações para:
+  - Dólar → Real
+  - Euro → Real
+  - Bitcoin → Real
+  - Libra → Real
+- Mostra alta, baixa, variação e preço atual (compra/venda)
+- Interface interativa e fácil de usar
+
+---
+
+## 🛠️ Como rodar
+
+1. Clone o projeto:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    cd seu-repositorio
+    ```
+2. Instale as dependências:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Execute:
+    ```bash
+    streamlit run app.py
+    ```
+4. Abra seu navegador em `http://localhost:8501`
+
+---
+
+## 📁 Arquivos principais
+
+- `app.py` — código principal do app Streamlit
+- `requirements.txt` — dependências do projeto
+
+### Conteúdo do `requirements.txt`:
